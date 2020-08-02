@@ -1,0 +1,101 @@
+
+body {
+    font-family: fantasy;
+    background-image: url(https://wallpapercave.com/wp/wp2068958.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen {
+    position: relative;
+    width: 325px;
+    height: 700px;
+    border-radius: 25px;
+    background: url(https://wallpapercave.com/wp/wp2068958.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    box-shadow: 0 19px 38px
+    rgba(0,0,0,0.3), 0 15px 12px
+    rgba(0,0,0,0.22) ;
+}
+
+
+.screen_title {
+    font-family: fantasy;
+    color: black;
+    font-weight: 900;
+    max-width: 80%;
+    margin: 40px;
+    font-size: 35px;
+    line-height: 49px;
+    text-decoration: underline;
+
+}
+
+.screen_title:hover {
+   color: seagreen;
+}
+
+.screen_form {
+    width: 85%;
+    margin: 60px auto 0 auto;
+    padding: 2px;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow:  0 10px 22px
+    rgba(0,0,0,0.20), 0 6px 6px
+    rgba(0,0,0,0.22) ;
+}
+
+.form_title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #002771
+}
+
+
+.form_title:hover {
+    text-decoration: underline;
+    color: orchid;
+}
+
+.form_inputs {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.form_inputs input {
+    width: 100%;
+    padding: 8px 4px;
+    border: none;
+    margin: 12px 0;
+    border-bottom: 1px solid rgba(88,88,90,.31);
+    }
+
+::placeholder {
+    color: saddlebrown;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.form_button {
+    display: block;
+    border: crimson;
+    background-color: darkcyan;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin: 15px auto 0 auto;
+    padding: 6px 16px;
+
+}
+
+.form_button:hover {
+    color: darkslateblue;
+    background-color: dodgerblue;
+}
